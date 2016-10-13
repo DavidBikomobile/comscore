@@ -6,27 +6,28 @@
  *  Ad Types.
  */
 typedef NS_ENUM(NSInteger, SCORAdType) {
+    
     /**
      *  Linear, pre-roll. Linear ads delivered into a media player and presented before, in the middle of,
      *  or after content is consumed by the user. For video the ad completely takes over the full view of
      *  the media player.
      */
-    
     SCORAdTypeLinearOnDemandPreRoll = 211,
+    
     /**
      *  Linear, mid-roll. Linear ads delivered into a media player and presented before, in the middle of,
      *  or after content is consumed by the user. For video the ad completely takes over the full view of
      *  the media player.
      */
-    
     SCORAdTypeLinearOnDemandMidRoll = 212,
+    
     /**
      *  Linear, post-roll. Linear ads delivered into a media player and presented before, in the middle of,
      *  or after content is consumed by the user. For video the ad completely takes over the full view of
      *  the media player.
      */
-    
     SCORAdTypeLinearOnDemandPostRoll = 213,
+    
     /**
      *  Linear, live/simulcast. Linear ads delivered before, in the middle of, or after a
      *  live/simulcast stream of content. For video the ad completely takes over the full view of the
